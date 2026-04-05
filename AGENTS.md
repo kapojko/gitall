@@ -49,7 +49,7 @@ Static Analysis: go vet ./...
 
 When using tools, consider:
 
-- Don't cd to project directory before running a command, you are already there
+- IMPORTANT - DO NOT `cd` to project directory before running a command, you are already there
 - Host system is Windows, with Powershell
 
 ## Commit rules
