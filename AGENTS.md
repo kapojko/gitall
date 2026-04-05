@@ -6,7 +6,6 @@ _gitall_ is a command-line utility written in Go to recursively walk directories
 
 - go language
 - Cobra for CLI structure
-- Viper for configuration
 
 ## Repository Structure
 
@@ -17,6 +16,7 @@ _gitall_ is a command-line utility written in Go to recursively walk directories
 - scripts/ - Build, install, and analysis scripts
 - tests/ - Extra integration tests or test fixtures (unit tests reside with source files \_test.go)
 - docs/ - Documentation
+- example/ - Example files
 
 ## Documentation
 
