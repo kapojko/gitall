@@ -7,38 +7,34 @@
 ## Synopsis
 
 ```
-gitall [command] [path]
+gitall [path]
+gitall --dir <path>
 ```
 
 ## Commands
 
-### status (st)
-
-Recursively walks all subdirectories and displays combined git status for all repositories found.
-
-**Aliases:** `st`, `status`
+gitall is a single command utility. It recursively walks all subdirectories and displays combined git status for all repositories found.
 
 **Usage:**
 ```
-gitall status [path]
+gitall [path]
 ```
 
 **Flags:**
-- `-h, --help` - Display help for the status command
+- `-h, --help` - Display help
+- `--dir` - Starting directory (defaults to current directory)
 
 ## Examples
 
 ### Display status of current directory
 ```bash
 gitall
-gitall status
-gitall st
 ```
 
 ### Display status of specific directory
 ```bash
 gitall /path/to/directory
-gitall status /path/to/directory
+gitall --dir /path/to/directory
 ```
 
 ## Output Format

@@ -19,6 +19,10 @@ Git parsing and repository discovery logic. Contains:
 Status display command implementation. Contains:
 - `status.go` - Formats and displays git repository status results
 
+### `internal/progress`
+Progress display functionality. Contains:
+- `progress.go` - Thread-safe progress bar display during directory walking
+
 ## Key Interfaces
 
 ### `git.Status`
