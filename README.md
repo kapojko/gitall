@@ -62,6 +62,12 @@ Build the binary:
 go build -o bin/gitall ./cmd/gitall
 ```
 
+On Windows:
+
+```powershell
+go build -o bin/gitall.exe ./cmd/gitall
+```
+
 ## Testing
 
 Run all tests:
